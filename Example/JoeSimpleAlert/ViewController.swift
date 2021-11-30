@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JoeSimpleAlert
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showAlert(_ sender: UIButton) {
+        
+        JoeSimpleAlert(title: "Is this simple?", confirm: "Yes)
+    }
 }
 
